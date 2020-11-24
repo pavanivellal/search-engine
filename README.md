@@ -29,7 +29,10 @@ This algorithm is store intensive in order to reduce compute power used.
    
 #### Querying 
 Depth first search (post order traversal) is used to evaluate queries from inner most to outer most query. 
-Each operator is associated to an operation. `&` -> set/intersection and `|` -> would be set/union.  
+Each operator is associated to an operation. `&` -> set/intersection and `|` -> would be set/union.
+  
+#### Validations 
+All of the inputs are validated according to input format required. More details in running instructions. 
 
 ## Running instructions
 * Run the `main` function in `src/search_engine/core.clj`
