@@ -54,11 +54,9 @@ Each operator is associated to an operation. `&` -> set/intersection and `|` -> 
             * in: `query soup`. out: `query results 3`
             * in: `query (butter | potato) & salt`. out: `query results 1 3`
             
-
-
-
-
-
+    * `DB` command : This is to dump the contents of the database into a file. 
+    * `exit` command : to exit from the input loop.
+            
 
 ## Testing 
 run `lein test` in terminal from the root directory in order to run all tests. 
